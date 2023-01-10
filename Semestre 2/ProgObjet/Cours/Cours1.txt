@@ -1,0 +1,74 @@
+Une classe c'est :
+- un ensemble de service déjà programmés et faciles à utiliser, relatifs à la manipulation d'une notion ou d'une réalité.
+- un composant logiciel réutilisable destiné à la conception d'applications informatiques évolutives et fiables.
+
+Compétences principales à acquérir :
+- Utiliser une classe en prenant connaissance et en bénéficiant de ses services.
+- Créer la classe en définissant ses services et les implémentant.
+
+L'opération d'instanciation
+La quasi-totalité des classes sont :
+- Destinées à gérer une réalité caractérisée par des données.
+- Dotées d'un servce appelé constructeur, chargé de créer un exemplaire particulier de la réalité.
+Un objet est un exemplaire particulier d'une classe créé par le constructeur et qui est stocké en espace mémoire.
+
+Le constructeur :
+- porte toujours le nom de la classe.
+- admet une liste d'arguments qui représente les données qu'il conviendra de fournir pour créer l'objet souhaité.
+
+Exploiter le constructeur :
+1. Déclarer une variable qui pointera sur l'objet créé.
+2. Appeler le constructeur au moyen d'une affectation et de l'opérateur nouveau.
+
+Exemple en algo :
+algo : CréationFraction
+variables
+	objFraction1, objFraction2 : Fraction
+début
+	// Création de la Fraction 4/3
+	objFraction1 <- nouveau Fraction(4,3)
+
+	// Création de la Fraction 5/1
+	objFraction2 <- nouveau Fraction(5) // ou Fraction(5,1) car valeur NULL = 1 par défaut
+fin
+
+Attention ! Il est important de noter que les variables objFraction1 et objFraction2 contiennent l'adresse de l'objet et non l'objet lui-même.
+
+Exemple en swift :
+// Programme principal de création de Fraction
+// variables
+var objFraction1, objFraction2 : Fraction
+
+// Création de la Fraction 4/3
+objFraction1 = Fraction(4,3)
+
+//Création de la Fraction 5/1
+objFraction2 = Fraction(5)
+
+Les raisons de l'échec d'une opération d'instanciation :
+- Forunir des données incohérentes avec la définition de la classe
+- La saturation de l'espace mémoire
+
+
+Fournir des services :
+- c'est la raison d'être d'une classe.
+- L'utilisateur ne connaît que l'interface de la classe et non son implémentation.
+
+L'interface d'une classe :
+- Ensemble des modes d'emploi de chaque service
+- Le mode d'emploi d'un service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
