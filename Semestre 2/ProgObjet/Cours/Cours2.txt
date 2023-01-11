@@ -1,0 +1,68 @@
+Application 2:
+1.a 135€
+  b 68€
+  c 4 points
+  d 1 point
+
+2.
+variables
+	objContrôle, objAutreContrôle : ConrôleVitesse
+début
+
+	objContrôle = nouveau ContrôleVitesse(120, 110)
+	afficher objContrôle.getMontantAmende()
+
+	objAutreContrôle = nouveau ContrôleVitesse(102, 90)
+	afficher objAutreContrôle.getNombreDePointsEnMoins()
+
+fin
+3.a "Les contrôles sont égaux"
+b
+variable
+	objControle1, objControle2 : ControleVitesse
+début
+	objControle1 <- nouveau ControleVitesse(95,110)
+	objControle2 <- nouveau ControleVitesse(95,110)
+
+	si objControle1.getVitesseZone() = objControle2.getVitesseZone() ET objControle1.getVitesseRetenue() = objControle2.getVitesseRetenue() alors
+		afficher "Les contrôles sont égaux"
+	sinon
+		afficher "Les controles sont différents"
+	finSi
+fin
+
+c
+var objControle1,objControle2 : ControleVitesse
+
+objControle1 = ControleVitesse(95,110)
+objControle2 = ControleVitesse(95,110)
+
+if (objControle1.getVitesseZone() == objControle2.getVitesseZone() && objControle1.getVitesseRetenue() == objControle2.getVitesseRetenue() {
+	print("Les controle sont égaux")
+}else {
+	print("Les controles sont différnts")
+}
+
+
+
+
+Application 3 :
+
+1. 10 et 10
+2.a 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
