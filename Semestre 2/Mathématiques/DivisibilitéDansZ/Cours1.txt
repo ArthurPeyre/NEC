@@ -1,0 +1,38 @@
+Def :  a et b sont deux entiers. b est divisible par a lorsque le quotient b/a est égal à un entier c. b/a=c càd b=ac.
+
+On écrira : b est divisible par a
+	<=> Ec€Z/b=ac
+On dit aussi que a divise b et on note a|b.
+On dit aussi que b est un multiple de a.
+
+Exemple :
+- 6|18 car 18=6x3
+- 6!|15 car 15 = 6 x (15/6)<--pas entier
+
+Complément 2 :
+- 8 ne divise pas 221
+- 17 divise 221
+- -13 divise 221
+- 1 divise 221
+
+Propriété : Va€Z, 1|a car a=1xa
+            Va€Z, a|a car a=ax1
+
+Propriété : Va€Z, a|0
+
+Complément 3 :
+Déterminer les entiers naturels a et b vérifiant "a² - b² = 35".
+Or a²-b² = (a+b)(a-b)
+Donc (a+b)(a-b) = 35
+On en déduit que (a+b)|35 (et que (a-b)|35)
+4 cas sont possibles :
+- a+b = 35 et a-b = 1
+- a+b = 1 et a-b = 35
+- a+b = 7 et a-b = 5
+- a+b = 5 et a-b = 7
+
+
+Soient c et d deux entiers.
+Mq 3c - 6d = 4 n'admet pas de solution
+3c - 6d = 4
+<=> 3(c - 2d) = 4 
